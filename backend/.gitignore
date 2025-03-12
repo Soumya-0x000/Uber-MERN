@@ -1,1 +1,75 @@
-node_modules
+# Dependencies
+node_modules/
+**/node_modules/
+/.pnp
+.pnp.js
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.production
+.env.development
+
+# Build outputs
+/build/
+/dist/
+/out/
+**/build/
+**/dist/
+
+# Debug logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+debug.log
+logs/
+*.log
+
+# IDE and Editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+*.sublime-project
+*.sublime-workspace
+
+# Testing
+/coverage/
+.nyc_output/
+
+# Backend specific
+backend/uploads/*
+!backend/uploads/.gitkeep
+backend/logs/*
+backend/temp/*
+
+# Frontend specific
+frontend/.cache/
+frontend/public/bundle.*
+frontend/.next/
+frontend/out/
+frontend/build/
+frontend/.cache/
+
+# Misc
+.DS_Store
+*.pem
+.tmp/
+*.pid
+*.seed
+*.pid.lock
+.vercel
+.netlify
+
+# Optional: Database files
+*.sqlite
+*.db
+
+# Optional: OS generated files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
